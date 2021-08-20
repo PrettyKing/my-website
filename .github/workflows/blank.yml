@@ -24,6 +24,7 @@ jobs:
           ftp-server: sftp://8.129.231.174:22/server/static
           ftp-username: ${{ secrets.ftp_user }}
           ftp-password: ${{ secrets.ftp_pwd }}
-          git-ftp-args: --insecure  
+          local-dir: ./
+          git-ftp-args: --insecure 
         env:
           CI: true
