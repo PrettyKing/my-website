@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+export PORT=9000
+npm run serve -- --port $PORT
+# yarn serve --port $PORT
