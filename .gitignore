@@ -23,3 +23,4 @@ key.js
 sync-cdn.js
 qiniu-test.js
 id_rsa_deploy.enc
+nodejs.yml
