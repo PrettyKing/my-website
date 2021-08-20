@@ -21,10 +21,10 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          ftp-server: sftp://8.129.231.174:22/server/static
+          ftp-server: 8.129.231.174
           ftp-username: ${{ secrets.ftp_user }}
           ftp-password: ${{ secrets.ftp_pwd }}
-          local-dir: ./
+          local-dir: /server/static
           git-ftp-args: --insecure 
         env:
           CI: true
