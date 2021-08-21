@@ -1,6 +1,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const qiniuPrefix = require('./qiniu-upload-prefix');
+// const qiniuPrefix = require('./qiniu-upload-prefix');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -29,11 +29,6 @@ module.exports = {
                     label: 'Tutorial',
                 },
                 { to: '/blog', label: 'Blog', position: 'left' },
-                // {
-                //     href: 'https://github.com/facebook/docusaurus',
-                //     label: 'GitHub',
-                //     position: 'right',
-                // },
             ],
         },
         footer: {
