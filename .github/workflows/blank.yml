@@ -1,7 +1,12 @@
-name: Node.js CI
+name: my-website publish
 
-on: [push]
-
+on:
+  push:
+    branches:    
+      - master
+  paths-ignore:   # 下列文件的变更不触发部署，可以自行添加
+      - README.md
+      - LICENSE
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +16,18 @@ jobs:
         node-version: [12.x]
 
     steps:
-      - name: actions/checkout版本
-        uses: actions/checkout@v2
+      - name: 打包分支
+        uses: actions/checkout@v2   # 检出仓库副本
       - name: Node版本 ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      # - name: 安装依赖
-      #   run: npm install
-      # - name: 打包项目
-      #   run: npm run build
-      # - name: 添加FTP忽略文件
-      #   run: echo ".*" >> .git-ftp-include
+      - name: 安装依赖
+        run: npm install
+      - name: 打包项目
+        run: npm run build
+      - name: 添加FTP忽略文件
+        run: echo ".*" >> .git-ftp-include
       - name: FTP上传到服务器部署
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
