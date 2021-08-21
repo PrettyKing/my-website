@@ -11,16 +11,19 @@ jobs:
         node-version: [12.x]
 
     steps:
-      - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: actions/checkout版本
+        uses: actions/checkout@v2
+      - name: Node版本 ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm install
-      - run: npm run build
-      - name: 添加忽略文件
+      - name: 安装依赖
+        run: npm install
+      - name: 打包项目
+        run: npm run build
+      - name: 添加FTP忽略文件
         run: echo ".*" >> .git-ftp-include
-      - name: FTP-Deploy-Action
+      - name: FTP上传到服务器部署
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
           server: ${{ secrets.FTP_SERVER }}
