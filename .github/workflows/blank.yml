@@ -24,7 +24,6 @@ jobs:
           ftp-server: ${{ secrets.FTP_SERVER }}
           ftp-username: ${{ secrets.FTP_USER }}
           ftp-password: ${{ secrets.FTP_PWD }}
-          local-dir: /server/static
-          git-ftp-args: --insecure 
+          local-dir: ./build/
         env:
           CI: true
