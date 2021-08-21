@@ -18,11 +18,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-key.js
-sync-cdn.js
-qiniu-test.js
-id_rsa_deploy.enc
-nodejs.yml
-qiniu-upload-prefix.js
-bootstrap
