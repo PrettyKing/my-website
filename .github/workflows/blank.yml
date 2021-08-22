@@ -29,12 +29,15 @@ jobs:
         run: yarn run build
       - name: 添加FTP忽略文件
         run: echo ".*" >> .git-ftp-include
-      - name: FTP上传到服务器部署
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      - name: 上传到服务器部署
+        uses: easingthemes/ssh-deploy@v2.1.6
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PWD }}
-          local-dir: ./build/
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
+          ARGS: "-rltgoDzvO"
+          SOURCE: './build/' 
+          REMOTE_HOST: ${{ secrets.SSH_HOST }}
+          REMOTE_USER: ${{ secrets.SSH_USERNAME }}
+          TARGET: '/data/' 
+          EXCLUDE: "/node_modules/"  
         env:
           CI: true
