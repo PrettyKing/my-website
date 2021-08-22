@@ -29,14 +29,12 @@ jobs:
         run: yarn run build
       - name: 添加FTP忽略文件
         run: echo ".*" >> .git-ftp-include
-      - name: 上传到服务器部署
-        uses: kostya-ten/ssh-server-deploy@v4
+      - name: FTP上传到服务器部署
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          host: ${{ secrets.SSH_HOST }}
-          port: ${{ secrets.PORT }}
-          username: ${{ secrets.SSH_USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          scp_source: ./build/
-          scp_target: /data/
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PWD }}
+          local-dir: ./build/
         env:
           CI: true
