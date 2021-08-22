@@ -8,7 +8,7 @@ module.exports = {
     tagline: '努力把兴趣稳定在生活',
     url: 'https://your-docusaurus-test-site.com',
     // baseUrl: 'http://static.faithcal.com/' + qiniuPrefix.prefix,
-    baseUrl: '/my-website/',
+    baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
