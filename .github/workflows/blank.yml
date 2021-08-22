@@ -24,18 +24,17 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: 安装依赖
-        run: npm install
+        run: yarn install
       - name: 打包项目
-        run: npm run build
+        run: yarn run build
       - name: 添加FTP忽略文件
         run: echo ".*" >> .git-ftp-include
       - name: FTP上传到服务器部署
-        uses: airvzxf/ftp-deployment-action@latest
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
           server: ${{ secrets.FTP_SERVER }}
-          user: ${{ secrets.FTP_USER }}
+          username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PWD }}
-          local_dir: ./build/
-          delete: "true"
+          local-dir: ./build/
         env:
           CI: true
