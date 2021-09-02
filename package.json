@@ -5,15 +5,14 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "docusaurus build",
+    "build": "cross-env NODE_PATH=production docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "uploadfile":"node ./qiniu-test.js",
-    "prod": "docusaurus build && node ./sync-cdn.js"
+    "prod": "cross-env NODE_PATH=development docusaurus build"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.3",
@@ -22,6 +21,7 @@
     "@svgr/webpack": "^5.5.0",
     "bluebird": "^3.7.2",
     "clsx": "^1.1.1",
+    "cross-env": "^7.0.3",
     "file-loader": "^6.2.0",
     "prism-react-renderer": "^1.2.1",
     "qiniu": "^7.4.0",

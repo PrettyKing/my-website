@@ -6,9 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
     title: '卫辰',
     tagline: '努力把兴趣稳定在生活',
-    url: 'https://your-docusaurus-test-site.com',
-    // baseUrl: 'http://static.faithcal.com/' + qiniuPrefix.prefix,
-    baseUrl: '/',
+    url: 'http://githubci.faithcal.com',
+    baseUrl: process.env.NODE_PATH == 'development' ? '/my-website/' : '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',

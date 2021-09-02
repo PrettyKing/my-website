@@ -1,6 +1,6 @@
 ---
 slug: hello-world
-title: Hello
+title: Hello,卫辰
 author: 卫辰
 author_title: Maintainer of Docusaurus
 author_url: https://github.com/endiliey
