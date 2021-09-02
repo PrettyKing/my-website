@@ -27,16 +27,7 @@ jobs:
         run: yarn install
       - name: 打包项目
         run: yarn run build
-      # - name: 添加FTP忽略文件
-      #   run: echo ".*" >> .git-ftp-include
-      # - name: FTP上传到服务器部署
-      #   uses: SamKirkland/FTP-Deploy-Action@4.0.0
-      #   with:
-      #     server: ${{ secrets.FTP_SERVER }}
-      #     username: ${{ secrets.FTP_USER }}
-      #     password: ${{ secrets.FTP_PWD }}
-      #     local-dir: ./build/
-       - name: Deploy to Staging server
+      - name: Deploy to Staging server
         uses: easingthemes/ssh-deploy@v2.1.6
         env:
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
