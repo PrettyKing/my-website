@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
     title: '卫辰',
-    tagline: '努力把兴趣稳定在生活',
+    tagline: '加油啊，骚年',
     url: 'http://githubci.faithcal.com',
     baseUrl: process.env.NODE_PATH == 'development' ? '/my-website/' : '/',
     onBrokenLinks: 'throw',
