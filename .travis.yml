@@ -15,7 +15,7 @@ install:
   - npm install
 
 script:
-  - npm run build
+  - npm run build:travis
 
 after_script:
   - cd ./build
