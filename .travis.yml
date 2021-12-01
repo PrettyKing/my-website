@@ -18,7 +18,7 @@ script:
   - npm run build
 
 after_script:
-  - cd ./public
+  - cd ./build
   - git init
   - git config user.name "username"
   - git config user.email "username@163.com"
