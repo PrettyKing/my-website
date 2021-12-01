@@ -24,4 +24,4 @@ after_script:
   - git config user.email "username@163.com"
   - git add .
   - git commit -m "Travis CI Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:online
+  - git push --force --quiet "https://${GH_TOKEN}@github.com/PrettyKing/my-website.git" master:online
