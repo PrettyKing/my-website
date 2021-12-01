@@ -7,7 +7,7 @@ module.exports = {
     title: '卫辰',
     tagline: '加油啊，骚年',
     url: 'http://githubci.faithcal.com',
-    baseUrl: process.env.NODE_PATH == 'development' ? '/my-website/' : '/',
+    baseUrl:'/my-website/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
