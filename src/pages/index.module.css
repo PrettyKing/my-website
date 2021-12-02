@@ -10,6 +10,9 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  /* background-image:url('https://chalee-typora.oss-cn-beijing.aliyuncs.com/2021-12-02-requestHandler.png');
+  background-position:center center;
+  background-size:100% auto; */
 }
 
 @media screen and (max-width: 966px) {
