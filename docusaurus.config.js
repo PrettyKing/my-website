@@ -25,7 +25,7 @@ module.exports = {
                     type: 'doc',
                     docId: 'intro',
                     position: 'left',
-                    label: '文档',
+                    label: '大前端',
                 },
                 { to: '/blog', label: '博客', position: 'left' },
             ],
