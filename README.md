@@ -17,3 +17,5 @@
 - git tag v0.1.0(通过tag打版)
 - git tag(查看版本)
 - git push origin v0.1.0(把本地标签推送到远程仓库，会触发自动构建部署)
+
+- jenkins test
