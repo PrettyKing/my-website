@@ -4,8 +4,8 @@
 
 软件开发最开始是由两个团队组成：
 
-- 开发计划由[开发团队]()从头开始设计和整体系统的构建。需要系统不停的迭代更新。
-- [运维团队]()将开发团队的Code进行测试后部署上线。希望系统稳定安全运行。
+- 开发计划由[开发团队](https://www.faithcal.com)从头开始设计和整体系统的构建。需要系统不停的迭代更新。
+- [运维团队](https://www.faithcal.com)将开发团队的Code进行测试后部署上线。希望系统稳定安全运行。
 
 这看似两个目标不同的团队需要协同完成一个软件的开发。
 
@@ -23,23 +23,23 @@
 
 基于现在的互联网现状，更推崇敏捷式开发，这样就导致项目的迭代速度更快，但是由于开发团队与运维团队的沟通问题，会导致新版本上线的时间成本很高。这又违背的敏捷式开发的最初的目的。
 
-那么如果让开发团队和运维团队整合到成一个团队，协同应对一套软件呢？这就被称为[DevOps]()。
+那么如果让开发团队和运维团队整合到成一个团队，协同应对一套软件呢？这就被称为[DevOps](https://www.faithcal.com)。
 
-[DevOps]()，字面意思是Development &Operations的缩写，也就是开发&运维。
+[DevOps](https://www.faithcal.com)，字面意思是Development &Operations的缩写，也就是开发&运维。
 
 虽然字面意思只涉及到了开发团队和运维团队，其实QA测试团队也是参与其中的。
 
-网上可以查看到[DevOps]()的符号类似于一个无穷大的符号
+网上可以查看到[DevOps](https://www.faithcal.com)的符号类似于一个无穷大的符号
 
-|                [DevOps]()                |
+|                [DevOps](https://www.faithcal.com)                |
 | :--------------------------------------: |
 | ![image-20211124130409521](https://chalee-typora.oss-cn-beijing.aliyuncs.com/Pictures/image-20211124130409521.png) |
 
-这表明[DevOps]()是一个不断提高效率并且持续不断工作的过程
+这表明[DevOps](https://www.faithcal.com)是一个不断提高效率并且持续不断工作的过程
 
-[DevOps]()的方式可以让公司能够更快地应对更新和市场发展变化，开发可以快速交付，部署也更加稳定。
+[DevOps](https://www.faithcal.com)的方式可以让公司能够更快地应对更新和市场发展变化，开发可以快速交付，部署也更加稳定。
 
-核心就在于[简化Dev和Ops团队之间的流程，使整体软件开发过程更快速。]()
+核心就在于[简化Dev和Ops团队之间的流程，使整体软件开发过程更快速。](https://www.faithcal.com)
 
 整体的软件开发流程包括：
 
@@ -50,7 +50,7 @@
 - DEPLOY：代码经过手动测试和自动化测试后，认定代码已经准备好部署并且交给运维团队。
 - OPERATE：运维团队将代码部署到生产环境中。
 - MONITOR：项目部署上线后，需要持续的监控产品。
-- INTEGRATE：然后将监控阶段收到的反馈发送回PLAN阶段，整体反复的流程就是[DevOps]()的核心，即持续集成、持续部署。
+- INTEGRATE：然后将监控阶段收到的反馈发送回PLAN阶段，整体反复的流程就是[DevOps](https://www.faithcal.com)的核心，即持续集成、持续部署。
 
 为了保证整体流程可以高效的完成，各个阶段都有比较常见的工具，如下图：
 
@@ -58,7 +58,7 @@
 | :--------------------------------------: |
 | ![2021-11-23_175935](https://chalee-typora.oss-cn-beijing.aliyuncs.com/Pictures/2021-11-23_175935.png) |
 
-最终可以给[DevOps]()下一个定义：[DevOps 强调的是高效组织团队之间如何通过自动化的工具协作和沟通来完成软件的生命周期管理，从而更快、更频繁地交付更稳定的软件。]()
+最终可以给[DevOps](https://www.faithcal.com)下一个定义：[DevOps 强调的是高效组织团队之间如何通过自动化的工具协作和沟通来完成软件的生命周期管理，从而更快、更频繁地交付更稳定的软件。](https://www.faithcal.com)
 
 自动化的工具协作和沟通来完成软件的生命周期管理
 
@@ -203,9 +203,9 @@ https://git-scm.com/（傻瓜式安装）
 
 - 下载Docker/Compose：https://github.com/docker/compose
 
-- 将下载好的[docker-compose-Linux-x86_64]()文件移动到Linux操作系统：……
+- 将下载好的[docker-compose-Linux-x86_64](https://www.faithcal.com)文件移动到Linux操作系统：……
 
-- 设置[docker-compose-Linux-x86_64]()文件权限，并移动到$PATH目录中
+- 设置[docker-compose-Linux-x86_64](https://www.faithcal.com)文件权限，并移动到$PATH目录中
 
   ```sh
   # 设置文件权限
@@ -236,7 +236,7 @@ Jenkins需要大量的插件保证工作，安装成本较高，下面会基于D
 
 Jenkins是一个开源软件项目，是基于Java开发的一种持续集成工具
 
-Jenkins应用广泛，大多数互联网公司都采用Jenkins配合GitLab、Docker、K8s作为实现[DevOps]()的核心工具。
+Jenkins应用广泛，大多数互联网公司都采用Jenkins配合GitLab、Docker、K8s作为实现[DevOps](https://www.faithcal.com)的核心工具。
 
 Jenkins最强大的就在于插件，Jenkins官方提供了大量的插件库，来自动化CI/CD过程中的各种琐碎功能。
 
@@ -358,7 +358,7 @@ CI/CD可以理解为：
 
 ##### 5.3.1 构建任务
 
-准备好GitLab仓库中的项目，并且通过Jenkins配置项目的实现当前项目的[DevOps]()基本流程。
+准备好GitLab仓库中的项目，并且通过Jenkins配置项目的实现当前项目的[DevOps](https://www.faithcal.com)基本流程。
 
 - 构建Maven工程发布到GitLab（Gitee、Github均可）
 
@@ -402,7 +402,7 @@ Jenkins需要将Git上存放的源码存储到Jenkins服务所在磁盘的本地
 
   可以看到源码已经拉取带Jenkins本地，可以根据第三行日志信息，查看Jenkins本地拉取到的源码。
 
-- 查看Jenkins容器中[/var/jenkins_home/workspace/test]()的源码
+- 查看Jenkins容器中[/var/jenkins_home/workspace/test](https://www.faithcal.com)的源码
 
   |                  源码存放位置                  |
   | :--------------------------------------: |
@@ -592,7 +592,7 @@ Sonar Qube可以与多种软件整合进行代码扫描，比如Maven，Gradle�
 
 Sonar Qube在7.9版本中已经放弃了对MySQL的支持，并且建议在商业环境中采用PostgreSQL，那么安装Sonar Qube时需要依赖PostgreSQL。
 
-并且这里会安装Sonar Qube的长期支持版本[8.9]()
+并且这里会安装Sonar Qube的长期支持版本[8.9](https://www.faithcal.com)
 
 - 拉取镜像
 
@@ -766,7 +766,7 @@ Sonar Qube的使用方式很多，Maven可以整合，也可以采用sonar-scann
   ~/sonar-scanner/bin/sonar-scanner -Dsonar.sources=./ -Dsonar.projectname=demo -Dsonar.projectKey=java -Dsonar.java.binaries=target/
   ```
 
-  [Ps：主要查看我的sonar-scanner执行命令的位置]()
+  [Ps：主要查看我的sonar-scanner执行命令的位置](https://www.faithcal.com)
 
   |                  查看日志信息                  |
   | :--------------------------------------: |
@@ -930,7 +930,7 @@ Harbor作为镜像仓库，主要的交互方式就是将镜像上传到Harbor�
 
 - 修改镜像名称
 
-  名称要求：[harbor地址/项目名/镜像名:版本]()
+  名称要求：[harbor地址/项目名/镜像名:版本](https://www.faithcal.com)
 
   | 修改镜像名称                                   |
   | ---------------------------------------- |
@@ -957,7 +957,7 @@ Harbor作为镜像仓库，主要的交互方式就是将镜像上传到Harbor�
 
 ##### 8.3.3 从Harbor拉取镜像ls
 
-跟传统方式一样，不过需要先配置[/etc/docker/daemon.json]()文件
+跟传统方式一样，不过需要先配置[/etc/docker/daemon.json](https://www.faithcal.com)文件
 
 ```json
 {
@@ -1189,7 +1189,7 @@ Jenkins的Pipeline可以让项目的发布整体流程可视化，明确执行�
   | :--------------------------------------: |
   | ![image-20211202145240166](https://chalee-typora.oss-cn-beijing.aliyuncs.com/Pictures/image-20211202145240166.png) |
 
-[Ps：涉及到特定脚本，Jenkins给予了充足的提示，可以自动生成命令]()
+[Ps：涉及到特定脚本，Jenkins给予了充足的提示，可以自动生成命令](https://www.faithcal.com)
 
 |                  生成命令位置                  |
 | :--------------------------------------: |
@@ -1238,7 +1238,7 @@ Jenkinsfile方式需要将脚本内容编写到项目中的Jenkinsfile文件中�
 | :--------------------------------------: |
 | ![image-20211202192047619](https://chalee-typora.oss-cn-beijing.aliyuncs.com/Pictures/image-20211202192047619.png) |
 
-![image-20211202192129895](https://chalee-typora.oss-cn-beijing.aliyuncs.com/Pictures/image-20211202192129895.png)将*/master更改为标签[${tag}]()
+![image-20211202192129895](https://chalee-typora.oss-cn-beijing.aliyuncs.com/Pictures/image-20211202192129895.png)将*/master更改为标签[${tag}](https://www.faithcal.com)
 
 ```sh
 pipeline {
@@ -2311,7 +2311,7 @@ spec:
   | :------------------------------------------: |
   | ![1642500474036](https://chalee-typora.oss-cn-beijing.aliyuncs.com/Pictures/1642500474036.png) |
 
-[Ps：这种方式更适应与CD操作，将项目将基于某个版本部署到指定的目标服务器]()
+[Ps：这种方式更适应与CD操作，将项目将基于某个版本部署到指定的目标服务器](https://www.faithcal.com)
 
 #### 10.6 基于GitLab的WebHooks
 
