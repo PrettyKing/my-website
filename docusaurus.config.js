@@ -4,100 +4,101 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-    title: '卫辰',
-    tagline: '用心去追寻那不曾到过远方',
-    url: 'http://githubci.faithcal.com',
-    baseUrl: process.env.NODE_PATH == 'travis' ? '/my-website/' : '/',
-    onBrokenLinks: 'throw',
-    onBrokenMarkdownLinks: 'warn',
-    favicon: 'img/favicon.ico',
-    organizationName: 'facebook', // Usually your GitHub org/user name.
-    projectName: 'docusaurus', // Usually your repo name.
-    themeConfig: {
-        navbar: {
-            title: '卫辰',
-            logo: {
-                alt: '诗的远方',
-                src: 'img/logo.svg',
-            },
-            items: [
-                {
-                    type: 'doc',
-                    docId: 'intro',
-                    position: 'left',
-                    label: '大前端',
-                },
-                { to: '/blog', label: '博客', position: 'left' },
-            ],
+  title: '卫辰',
+  tagline: '用心去追寻那不曾到过远方',
+  url: 'http://githubci.faithcal.com',
+  baseUrl: process.env.NODE_PATH == 'travis' ? '/my-website/' : '/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
+  themeConfig: {
+    navbar: {
+      title: '卫辰',
+      logo: {
+        alt: '诗的远方',
+        src: 'img/logo.svg',
+      },
+      items: [
+        {
+          type: 'doc',
+          docId: 'intro',
+          position: 'left',
+          label: '大前端',
         },
-        footer: {
-            style: 'dark',
-            links: [
-                {
-                    title: '文档 ',
-                    items: [
-                        {
-                            label: '笔记',
-                            to: '/docs/intro',
-                        },
-                    ],
-                },
-                {
-                    title: '其他',
-                    items: [
-                        {
-                            label: '掘金',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                        },
-                        {
-                            label: '语雀',
-                            href: 'https://discordapp.com/invite/docusaurus',
-                        },
-                    ],
-                },
-                {
-                    title: '更多',
-                    items: [
-                        {
-                            label: '个人博客',
-                            href: 'https://github.com/facebook/docusaurus',
-                        },
-                        {
-                            label: 'GitHub',
-                            href: 'https://github.com/facebook/docusaurus',
-                        },
-                        {
-                            label: 'Gitee',
-                            href: 'https://twitter.com/docusaurus',
-                        },
-                    ],
-                },
-            ],
-            copyright: `Copyright © ${new Date().getFullYear()} From chalee.`,
-        },
-        prism: {
-            theme: lightCodeTheme,
-            darkTheme: darkCodeTheme,
-        },
+        { to: '/md/devops', label: 'devops'},
+        { to: '/blog', label: '博客', position: 'left' },
+      ],
     },
-    presets: [
-        [
-            '@docusaurus/preset-classic',
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: '文档 ',
+          items: [
             {
-                docs: {
-                    // sidebarPath: require.resolve('./sidebars.js'),
-                    // Please change this to your repo.
-                    editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
-                },
-                blog: {
-                    showReadingTime: true,
-                    // Please change this to your repo.
-                    editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-                },
-                theme: {
-                    customCss: require.resolve('./src/css/custom.css'),
-                },
+              label: '笔记',
+              to: '/docs/intro',
             },
-        ],
+          ],
+        },
+        {
+          title: '其他',
+          items: [
+            {
+              label: '掘金',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            },
+            {
+              label: '语雀',
+              href: 'https://discordapp.com/invite/docusaurus',
+            },
+          ],
+        },
+        {
+          title: '更多',
+          items: [
+            {
+              label: '个人博客',
+              href: 'https://github.com/facebook/docusaurus',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/facebook/docusaurus',
+            },
+            {
+              label: 'Gitee',
+              href: 'https://twitter.com/docusaurus',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} From chalee.`,
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
+  },
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        docs: {
+          // sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
+        },
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      },
     ],
+  ],
 };
