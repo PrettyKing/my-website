@@ -28,6 +28,7 @@ module.exports = {
           label: '大前端',
         },
         { to: '/md/devops', label: 'devops'},
+        { to: '/pdf/typescript', label: 'typescript'},
         { to: '/blog', label: '博客', position: 'left' },
       ],
     },
