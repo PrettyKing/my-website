@@ -33,47 +33,6 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: '文档 ',
-          items: [
-            {
-              label: '笔记',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: '其他',
-          items: [
-            {
-              label: '掘金',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: '语雀',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-          ],
-        },
-        {
-          title: '更多',
-          items: [
-            {
-              label: '个人博客',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-            {
-              label: 'Gitee',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} From chalee.`,
     },
     prism: {
