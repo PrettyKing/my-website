@@ -10,7 +10,7 @@ module.exports = {
   baseUrl: process.env.NODE_PATH == 'travis' ? '/my-website/' : '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
@@ -18,7 +18,7 @@ module.exports = {
       title: '卫辰',
       logo: {
         alt: '诗的远方',
-        src: 'img/logo.svg',
+        src: 'logo.png',
       },
       items: [
         {
