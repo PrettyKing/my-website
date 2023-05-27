@@ -17,7 +17,7 @@ author: 卫辰
 
 ### 概览图
 
-![进程与线程](http://qiniu.faithcal.com/20201118-1.png)
+![进程与线程](https://qiniu.faithcal.com/20201118-1.png)
 
 ### CI & CD
 
@@ -31,7 +31,7 @@ author: 卫辰
 
 ### CI/CD流程
 
-![进程与线程](http://qiniu.faithcal.com/20201118-2.png)
+![进程与线程](https://qiniu.faithcal.com/20201118-2.png)
 
 ### 自动构建
 
@@ -49,7 +49,7 @@ author: 卫辰
 - 版本控制系统(VCS)用于帮助维护项 目历史记录，并行处理离散特征，以及 解决存在冲突的更改。VCS允许项目轻 松采用更改并在出现问题时回滚。开发 人员可以在本地计算机上处理项目，并 使用VCS来管理不同的开发分支。
 - 记录在VCS中的每个更改都称为提交。 每个提交都对代码库的更改进行编目分 类，元数据也包含在其中，例如关于查 看提交历史记录或合并更新的描述。
 
-![进程与线程](http://qiniu.faithcal.com/20201118-3.png)
+![进程与线程](https://qiniu.faithcal.com/20201118-3.png)
 
 ### 持续集成(CI)
 
@@ -79,7 +79,7 @@ CD : 持续交付
 
 CD：持续部署
 
-![进程与线程](http://qiniu.faithcal.com/20201118-4.png)
+![进程与线程](https://qiniu.faithcal.com/20201118-4.png)
 
 ---
 

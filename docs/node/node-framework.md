@@ -33,7 +33,7 @@ author: 卫辰
 
 > 完美的异步 IO 应该是应该是应用程序发起非阻塞 调用，无需通过遍历或者事件幻想等方式轮询。
 
-![实现图](http://qiniu.faithcal.com/node-1.png)
+![实现图](https://qiniu.faithcal.com/node-1.png)
 
 4. 几个特殊的 API
 
