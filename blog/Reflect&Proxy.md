@@ -2,6 +2,8 @@
 
 > ES6提供了一个全新的API-Reflect, Reflect 和Proxy是相对的，我们可以用Reflect 操作对象。
 
+<!--truncate-->
+
 ### Reflect存在的意义
 
 - 将Object对象些内部的方法， 放到Reflect 对象上。比如Object.defineProperty
