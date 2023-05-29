@@ -1,5 +1,3 @@
-## Reflect
-
 > ES6提供了一个全新的API-Reflect, Reflect 和Proxy是相对的，我们可以用Reflect 操作对象。
 
 <!--truncate-->
