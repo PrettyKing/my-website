@@ -19,4 +19,4 @@ jobs:
           git config user.email "chalee695469701@gmail.com"
           git add .
           git commit -m "Action Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-          git push --force --quiet "https://${ACCESS_TOKEN}@github.com/PrettyKing/my-website.git" master:online
+          git push --force --quiet "https://PrettyKing:${{ACCESS_TOKEN}}@github.com/PrettyKing/my-website.git" master:online
