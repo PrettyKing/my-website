@@ -14,6 +14,7 @@ jobs:
           npm install
           npm run build:travis
           cd ./build
+          git init
           git config user.name "chalee"
           git config user.email "chalee695469701@gmail.com"
           git add .
