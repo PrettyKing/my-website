@@ -18,6 +18,4 @@ jobs:
           git config user.email "chalee695469701@gmail.com"
           git add .
           git commit -m "Action Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-          git remote set-url origin https://${GH_TOKEN}@github.com/PrettyKing/my-website.git
-          git remote -v
-          git push origin HEAD:online
+          git push --force --quiet "https://${ACCESS_TOKEN}@github.com/PrettyKing/my-website.git" master:online
