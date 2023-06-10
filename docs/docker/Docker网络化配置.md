@@ -5,9 +5,6 @@
 ```shell
 # 查看当前可用的网络类型
 $ docker network ls 	
-		
-
-
 # 网络空间名称
 $ docker network create -d 类型 
 	# 类型分为：

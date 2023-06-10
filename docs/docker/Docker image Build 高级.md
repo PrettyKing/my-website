@@ -1,5 +1,3 @@
-## Docker image Build 高级
-
 #### 镜像 Cache 机制
 
 **Docker Daemnon 通过 Dockerfile 构建镜像时，当发现即将新构建出的镜像与已有的某镜像重复时，可以选择放弃构建新的镜像，而是选用已有的镜像作为构建结果，也就是采取本地已经 cache 的镜像作为结果**

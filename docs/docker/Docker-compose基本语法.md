@@ -1,5 +1,3 @@
-## Docker-compose 基本语法
-
 ```yaml
 version: '2'
 services:
