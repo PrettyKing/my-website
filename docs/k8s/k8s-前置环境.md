@@ -1,4 +1,5 @@
 > 系统镜像：RedHatEnterpriseLinux [RHEL] 8
+> Red Hat Enterprise Linux release 8.0 (Ootpa)
 
 ### 关闭防火墙
 ``` bash
