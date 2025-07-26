@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://githubci.faithcal.com/my-website/blog</id>
+    <title>卫辰 Blog</title>
+    <updated>2025-07-26T09:19:35.572Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="http://githubci.faithcal.com/my-website/blog"/>
+    <subtitle>卫辰 Blog</subtitle>
+    <icon>http://githubci.faithcal.com/my-website/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[CI-CD]]></title>
+        <id>CI-CD</id>
+        <link href="http://githubci.faithcal.com/my-website/blog/CI-CD"/>
+        <updated>2025-07-26T09:19:35.572Z</updated>
+        <summary type="html"><![CDATA[- CI/CD概述]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reflect&Proxy]]></title>
+        <id>Reflect&amp;Proxy</id>
+        <link href="http://githubci.faithcal.com/my-website/blog/Reflect&amp;Proxy"/>
+        <updated>2025-07-26T09:19:35.572Z</updated>
+        <summary type="html"><![CDATA[ES6提供了一个全新的API-Reflect, Reflect 和Proxy是相对的，我们可以用Reflect 操作对象。]]></summary>
+    </entry>
+</feed>
