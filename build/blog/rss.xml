@@ -4,21 +4,21 @@
         <title>卫辰 Blog</title>
         <link>http://githubci.faithcal.com/blog</link>
         <description>卫辰 Blog</description>
-        <lastBuildDate>Thu, 27 Apr 2023 06:27:45 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 26 Jul 2025 06:00:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[CI-CD]]></title>
             <link>http://githubci.faithcal.com/blog/CI-CD</link>
             <guid>CI-CD</guid>
-            <pubDate>Thu, 27 Apr 2023 06:27:45 GMT</pubDate>
+            <pubDate>Sat, 26 Jul 2025 06:00:52 GMT</pubDate>
             <description><![CDATA[- CI/CD概述]]></description>
         </item>
         <item>
             <title><![CDATA[Reflect&Proxy]]></title>
             <link>http://githubci.faithcal.com/blog/Reflect&amp;Proxy</link>
             <guid>Reflect&amp;Proxy</guid>
-            <pubDate>Thu, 27 Apr 2023 06:27:45 GMT</pubDate>
+            <pubDate>Sat, 26 Jul 2025 06:00:52 GMT</pubDate>
             <description><![CDATA[ES6提供了一个全新的API-Reflect, Reflect 和Proxy是相对的，我们可以用Reflect 操作对象。]]></description>
         </item>
     </channel>

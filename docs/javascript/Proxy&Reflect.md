@@ -249,7 +249,7 @@ alert("This line is never reached (error in the line above)");
 - `Object.keys/values()` 返回带有 `enumerable` 标记的非 Symbol 键值对（属性标记在章节 属性标志和属性描述符 有详细描述).
 - `for..in` 循环遍历所有带有 `enumerable` 标记的非 Symbol 键，以及原型对象的键。
 
-……但是所有这些都从该列表开始。
+但是所有这些都从该列表开始。
 
 在下面的示例中，我们使用 `ownKeys` 钩子拦截 `for..in` 对 `user` 的遍历，还使用 `Object.keys` 和 `Object.values` 来跳过以下划线 `_` 开头的属性：
 
@@ -295,10 +295,6 @@ alert( Object.keys(user) ); // <empty>
 为了让 `Object.keys` 返回一个属性，我们要么需要将该属性及 `enumerable` 标记存入对象，或者我们可以拦截对它的调用 `[[GetOwnProperty]]` (钩子`getOwnPropertyDescriptor` 会执行此操作)，并返回描述符enumerable: true。
 
 这是一个例子：
-
-[5]
-
-[6]
 
 ```js
 let user = { };
