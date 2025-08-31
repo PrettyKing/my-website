@@ -8,17 +8,17 @@
     <subtitle>卫辰 Blog</subtitle>
     <icon>http://githubci.faithcal.com/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[CI-CD]]></title>
-        <id>CI-CD</id>
-        <link href="http://githubci.faithcal.com/blog/CI-CD"/>
-        <updated>2025-07-26T06:00:52.797Z</updated>
-        <summary type="html"><![CDATA[- CI/CD概述]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Reflect&Proxy]]></title>
         <id>Reflect&amp;Proxy</id>
         <link href="http://githubci.faithcal.com/blog/Reflect&amp;Proxy"/>
         <updated>2025-07-26T06:00:52.797Z</updated>
         <summary type="html"><![CDATA[ES6提供了一个全新的API-Reflect, Reflect 和Proxy是相对的，我们可以用Reflect 操作对象。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CI-CD]]></title>
+        <id>CI-CD</id>
+        <link href="http://githubci.faithcal.com/blog/CI-CD"/>
+        <updated>2025-07-26T06:00:52.797Z</updated>
+        <summary type="html"><![CDATA[- CI/CD概述]]></summary>
     </entry>
 </feed>
